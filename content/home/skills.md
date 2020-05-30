@@ -1,50 +1,61 @@
 +++
-# A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+# Feature/Skill widget.
+widget = "featurette"  # Do not modify this line!
+date = 2017-09-20T00:00:00
+
+# Activate this widget? true/false
+active = true
 
 title = "Skills"
 subtitle = ""
 
+# Order that this section will appear in.
+weight = 20
+
 # Showcase personal skills or business features.
-# 
+#
 # Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+#
+# Available icon packs and icons:
+# * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
+# * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
+# * ai - academic icons (see https://jpswalsh.github.io/academicons/)
 
 [[feature]]
-  icon = "r-project"
+  icon = "code"
+  icon_pack = "fas"
+  name = "Programming Languages"
+  description = "PHP, JavaScript, SQL, HTML/CSS, Python, Java"
+
+[[feature]]
+  icon = "laravel"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
+  name = "Framework/Library"
+  description = "Bootstrap, JQuery, ReactJS, VueJS, Laravel"
+
+[[feature]]
+  icon = "laptop-code"
+  icon_pack = "fas"
+  name = "Tools/Version Control"
+  description = "Android Studio, Xcode, Git, Bitbucket"  
+
+[[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Operating Systems"
+  description = "Windows, Linux, Mac OS"  
+
+[[feature]]
+  icon = "globe"
+  icon_pack = "fas"
+  name = "Cloud Service"
+  description = "AWS VPC, EC2, RDS, S3"
++++
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Related Knowledge"
+  description = "Analytical and problem solving, Statistics, Agile Development"
 
-# Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
 
-# Uncomment to use custom SVG icons.
-# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
-# [[feature]]
-#  icon = "beach-sunset"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
-
-+++
